@@ -36,6 +36,7 @@ public class AuthorizeCreditCard {
         // Populate the payment data
         PaymentType paymentType = new PaymentType();
         CreditCardType creditCard = new CreditCardType();
+        Integer.parseInt("12");
         creditCard.setCardNumber("4242424242424242");
         creditCard.setExpirationDate("0822");
         paymentType.setCreditCard(creditCard);
