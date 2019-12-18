@@ -99,4 +99,8 @@ public class AuthorizeCreditCard {
         
         return response;
     }
+
+    public static int sample(int x,int y){
+        return x*x;
+    }
 }
