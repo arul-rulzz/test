@@ -2,6 +2,7 @@ package net.authorize.sample.PaymentTransactions;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.concurrent.ConcurrentHashMap;
 
 import net.authorize.Environment;
 import net.authorize.api.contract.v1.ANetApiResponse;
@@ -100,7 +101,9 @@ public class AuthorizeCreditCard {
         return response;
     }
 
-    public static int sample(int x,int y){
-        return x*x;
+    public static void sample(int x,int y){
+        ConcurrentHashMap<String,String> chMap=new ConcurrentHashMap<>(); 
+        chMap.put("key", "value");
+        chMap.put("key", "value");
     }
 }
